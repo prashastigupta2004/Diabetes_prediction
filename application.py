@@ -17,6 +17,11 @@ model = pickle.load(open("Model/modelForPrediction.pkl", "rb"))
 def index():
     return render_template('index.html')
 
+@app.route('/home.html')
+def home():
+    return render_template('home.html')
+
+
 ## Route for Single data point prediction
 @app.route('/predictdata',methods=['GET','POST'])
 def predict_datapoint():

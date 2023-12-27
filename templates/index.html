@@ -1,1 +1,59 @@
-<h1>Welcome to the home page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diabetes Prediction</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .info-section {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      color: #007bff;
+    }
+
+    p {
+      color: #666;
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2em;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="info-section">
+    <h1>Welcome to Diabetes Prediction</h1>
+    <p>Explore the power of machine learning with our Diabetes Prediction tool. Predict the likelihood of diabetes based on input parameters.</p>
+    <a href="{{ url_for('home') }}" class="cta-button">Get Started with Prediction</a>
+  </div>
+</body>
+</html>
+
+
