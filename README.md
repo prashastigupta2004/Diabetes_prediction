@@ -6,7 +6,6 @@ This project aims to predict whether a person has diabetes or not based on vario
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Model](#model)
 - [Results](#results)
 - [Contributing](#contributing)
@@ -44,24 +43,6 @@ To run this project locally, please follow these steps:
 3. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
-    ```
-
-## Usage
-To train the model and make predictions, run the following commands:
-
-1. **Data Preprocessing:**
-    ```bash
-    python src/data_preprocessing.py
-    ```
-
-2. **Train the Model:**
-    ```bash
-    python src/train_model.py
-    ```
-
-3. **Make Predictions:**
-    ```bash
-    python src/predict.py
     ```
 
 4. **Run the Web Application:**
