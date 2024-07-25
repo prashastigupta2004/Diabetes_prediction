@@ -10,8 +10,7 @@ This project aims to predict whether a person has diabetes or not based on vario
 - [Model](#model)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
-
+  
 ## Introduction
 Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy. The goal of this project is to develop a machine learning model that can accurately predict whether an individual has diabetes based on specific medical indicators.
 
@@ -32,8 +31,8 @@ To run this project locally, please follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/diabetes-prediction.git
-    cd diabetes-prediction
+    git clone https://github.com/prashastigupta2004/Diabetes_prediction.git
+    cd Diabetes_prediction
     ```
 
 2. Create a virtual environment and activate it:
@@ -76,13 +75,10 @@ The model used for this project is a Random Forest Classifier. The choice of thi
 ## Results
 The model achieved the following results on the test set:
 - Accuracy: 85%
-- Precision: 80%
-- Recall: 75%
-- F1 Score: 77%
+- Precision: 90%
+- Recall: 81%
+- F1 Score: 85%
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. For major changes, please open an issue to discuss what you would like to change.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
